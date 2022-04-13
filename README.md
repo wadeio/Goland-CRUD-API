@@ -9,14 +9,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/wadeio/Goland-CRUD-API">
+  <a href="https://github.com/wadeio/Golang-Crud-Api">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Goland CRUD API</h3>
+<h3 align="center">Golang-Crud-Api</h3>
 
   <p align="center">
-    這是一個Goland API 練習
+    這是一個Golang API 練習
     <br />
   </p>
 </div>
@@ -26,7 +26,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-這個專案是Goland CRUD API 練習 
+這個專案是Golang CRUD API 練習 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -34,10 +34,9 @@
 
 ### Built With
 
-* [Python](https://www.python.org/)
-* [Flask](https://flask.palletsprojects.com/en/2.1.x/)
-* [Docker](https://www.docker.com/)
-* [Pytest](https://docs.pytest.org/en/7.1.x/)
+* [golang](https://go.dev/)
+* [Gin](https://github.com/gin-gonic/gin)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -55,20 +54,20 @@ To get a local copy up and running follow these simple example steps.
 
   [download docker](https://docs.docker.com/desktop/windows/install/)
 
-* pipenv 
+<!-- * pipenv 
   ```sh
   pip install pipenv
   pipenv install
   pipenv shell
   exit
-  ```
+  ``` -->
 
 ### Installation
 
-1. Get a free API Key at [https://github.com/wadeio/Python-Crud-api](https://github.com/wadeio/Python-Crud-api)
+1. Get a free API Key at [https://github.com/wadeio/Golang-Crud-Api](https://github.com/wadeio/Golang-Crud-Api)
 2. Clone the repo
    ```sh
-   git clone https://github.com/wadeio/Python-Crud-api.git
+   git clone https://github.com/wadeio/Golang-Crud-Api.git
    ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -79,20 +78,20 @@ To get a local copy up and running follow these simple example steps.
 
 1.打包docker file
 ```sh
-docker build -t my-python-app .
+docker build -t my-golang-app .
 ```
 
 2.運行docker image,啟動 API 服務
 ```sh
-docker run -it --rm -p 5000:5000 --name my-running-app my-python-app
+docker run -i -t -p 8000:8000 my-golang-app
 ```
 
-3.執行單元測試
+<!-- 3.執行單元測試
 ```sh
 open terminal
 pipenv shell
 py.test tests/
-```
+``` -->
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -129,7 +128,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 wadeio - wadeio595@gmail.com
 
-Project Link: [https://github.com/wadeio/Python-Crud-api](https://github.com/wadeio/Python-Crud-api)
+Project Link: [https://github.com/wadeio/Golang-Crud-Api](https://github.com/wadeio/Golang-Crud-Api)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -143,17 +142,16 @@ Project Link: [https://github.com/wadeio/Python-Crud-api](https://github.com/wad
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/wadeio/Python-Crud-api.svg?style=for-the-badge
-[contributors-url]: https://github.com/wadeio/Python-Crud-api/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/wadeio/Python-Crud-api.svg?style=for-the-badge
-[forks-url]: https://github.com/wadeio/Python-Crud-api/network/members
-[stars-shield]: https://img.shields.io/github/stars/wadeio/Python-Crud-api.svg?style=for-the-badge
-[stars-url]: https://github.com/wadeio/Python-Crud-api/stargazers
-[issues-shield]: https://img.shields.io/github/issues/wadeio/Python-Crud-api.svg?style=for-the-badge
-[issues-url]: https://github.com/wadeio/Python-Crud-api/issues
-[license-shield]: https://img.shields.io/github/license/wadeio/Python-Crud-api.svg?style=for-the-badge
-[license-url]: https://github.com/wadeio/Python-Crud-api/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/wadeio/Golang-Crud-Api.svg?style=for-the-badge
+[contributors-url]: https://github.com/wadeio/Golang-Crud-Api/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/wadeio/Golang-Crud-Api.svg?style=for-the-badge
+[forks-url]: https://github.com/wadeio/Golang-Crud-Api/network/members
+[stars-shield]: https://img.shields.io/github/stars/wadeio/Golang-Crud-Api.svg?style=for-the-badge
+[stars-url]: https://github.com/wadeio/Golang-Crud-Api/stargazers
+[issues-shield]: https://img.shields.io/github/issues/wadeio/Golang-Crud-Api.svg?style=for-the-badge
+[issues-url]: https://github.com/wadeio/Golang-Crud-Api/issues
+[license-shield]: https://img.shields.io/github/license/wadeio/Golang-Crud-Api.svg?style=for-the-badge
+[license-url]: https://github.com/wadeio/Golang-Crud-Api/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
